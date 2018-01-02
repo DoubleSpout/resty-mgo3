@@ -11,7 +11,9 @@ all: ;
 
 install: all
 	$(INSTALL) -d $(LUA_LIB_DIR)/resty/mongol
-	$(INSTALL) lib/resty/mongol/*.lua $(LUA_LIB_DIR)/resty/mongol
+	$(INSTALL) lualib/resty/mongol/*.lua $(LUA_LIB_DIR)/resty/mongol
+    $(INSTALL) -d $(LUA_LIB_DIR)/resty/mgo3.lua
+	$(INSTALL) lualib/resty/mgo3.lua $(LUA_LIB_DIR)/resty/mgo3.lua
 
 
 test:
