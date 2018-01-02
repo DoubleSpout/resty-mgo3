@@ -1,0 +1,784 @@
+2017/12/29 08:32:33 [emerg] 11529#0: open() "/var/mgo3/t/conf/nginx_dev.conf" failed (2: No such file or directory)
+2017/12/29 08:36:21 [notice] 13633#0: signal process started
+2017/12/29 08:36:23 [error] 13637#0: *3 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:36:23 [error] 13637#0: *5 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:36:46 [error] 13637#0: *8 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:36:46 [error] 13637#0: *7 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:38:47 [notice] 15135#0: signal process started
+2017/12/29 08:38:48 [error] 15139#0: *12 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:38:48 [error] 15139#0: *10 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:38:53 [error] 15139#0: *11 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:38:53 [error] 15139#0: *13 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: module 'resty.mgo3' not found:
+	no field package.preload['resty.mgo3']
+	no file '/var/mgo3/t/lualib/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/init.lua'
+	no file '/usr/local/lualib/resty/mgo3.lua'
+	no file '/usr/local/lualib/resty/mgo3/init.lua'
+	no file './resty/mgo3.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/site/lualib/resty/mgo3.so'
+	no file '/usr/local/lualib/resty/mgo3.so'
+	no file './resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:42:48 [notice] 17571#0: signal process started
+2017/12/29 08:43:08 [notice] 17887#0: signal process started
+2017/12/29 08:43:18 [notice] 17919#0: signal process started
+2017/12/29 08:44:02 [notice] 18517#0: signal process started
+2017/12/29 08:44:14 [notice] 18533#0: signal process started
+2017/12/29 08:45:33 [notice] 19440#0: signal process started
+2017/12/29 08:46:10 [notice] 19762#0: signal process started
+2017/12/29 08:46:46 [notice] 20099#0: signal process started
+2017/12/29 08:46:47 [error] 20103#0: *16 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/init.lua:1: module 'resty.mongol' not found:
+	no field package.preload['resty.mongol']
+	no file '/var/mgo3/t/lualib/resty/mongol.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mongol.lua'
+	no file '/var/mgo3/t/lualib/resty/mongol/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mongol/init.lua'
+	no file '/usr/local/site/lualib/resty/mongol.ljbc'
+	no file '/usr/local/site/lualib/resty/mongol/init.ljbc'
+	no file '/usr/local/lualib/resty/mongol.ljbc'
+	no file '/usr/local/lualib/resty/mongol/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mongol.lua'
+	no file '/usr/local/site/lualib/resty/mongol/init.lua'
+	no file '/usr/local/lualib/resty/mongol.lua'
+	no file '/usr/local/lualib/resty/mongol/init.lua'
+	no file './resty/mongol.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mongol.lua'
+	no file '/usr/local/share/lua/5.1/resty/mongol.lua'
+	no file '/usr/local/share/lua/5.1/resty/mongol/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mongol.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mongol/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mongol.so'
+	no file '/usr/local/site/lualib/resty/mongol.so'
+	no file '/usr/local/lualib/resty/mongol.so'
+	no file './resty/mongol.so'
+	no file '/usr/local/lib/lua/5.1/resty/mongol.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mongol.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:46:47 [error] 20103#0: *15 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:46:51 [error] 20103#0: *17 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:46:51 [error] 20103#0: *18 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:48:02 [notice] 20998#0: signal process started
+2017/12/29 08:48:03 [error] 21002#0: *20 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/init.lua:1: module '_init.lua' not found:
+	no field package.preload['_init.lua']
+	no file '/var/mgo3/t/lualib/_init/lua.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/_init/lua.lua'
+	no file '/var/mgo3/t/lualib/_init/lua/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/_init/lua/init.lua'
+	no file '/usr/local/site/lualib/_init/lua.ljbc'
+	no file '/usr/local/site/lualib/_init/lua/init.ljbc'
+	no file '/usr/local/lualib/_init/lua.ljbc'
+	no file '/usr/local/lualib/_init/lua/init.ljbc'
+	no file '/usr/local/site/lualib/_init/lua.lua'
+	no file '/usr/local/site/lualib/_init/lua/init.lua'
+	no file '/usr/local/lualib/_init/lua.lua'
+	no file '/usr/local/lualib/_init/lua/init.lua'
+	no file './_init/lua.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/_init/lua.lua'
+	no file '/usr/local/share/lua/5.1/_init/lua.lua'
+	no file '/usr/local/share/lua/5.1/_init/lua/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/_init/lua.lua'
+	no file '/usr/local/luajit/share/lua/5.1/_init/lua/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/_init/lua.so'
+	no file '/usr/local/site/lualib/_init/lua.so'
+	no file '/usr/local/lualib/_init/lua.so'
+	no file './_init/lua.so'
+	no file '/usr/local/lib/lua/5.1/_init/lua.so'
+	no file '/usr/local/luajit/lib/lua/5.1/_init/lua.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/_init.so'
+	no file '/usr/local/site/lualib/_init.so'
+	no file '/usr/local/lualib/_init.so'
+	no file './_init.so'
+	no file '/usr/local/lib/lua/5.1/_init.so'
+	no file '/usr/local/luajit/lib/lua/5.1/_init.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:48:03 [error] 21002#0: *22 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:48:17 [notice] 21022#0: signal process started
+2017/12/29 08:48:20 [error] 21026#0: *24 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/init.lua:1: module 'resty.mgo3._init.lua' not found:
+	no field package.preload['resty.mgo3._init.lua']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/lua.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/lua.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/lua/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/lua/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/lua.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/lua/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/lua.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/lua/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/lua.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/lua/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/lua.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/lua/init.lua'
+	no file './resty/mgo3/_init/lua.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init/lua.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/lua.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/lua/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/lua.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/lua/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init/lua.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/lua.so'
+	no file '/usr/local/lualib/resty/mgo3/_init/lua.so'
+	no file './resty/mgo3/_init/lua.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init/lua.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init/lua.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:48:20 [error] 21026#0: *23 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 08:48:36 [notice] 21331#0: signal process started
+2017/12/29 08:48:37 [error] 21335#0: *26 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/_init.lua:14: module 'resty.mgo3._init.dbmt' not found:
+	no field package.preload['resty.mgo3._init.dbmt']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file './resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.so'
+	no file './resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 08:48:37 [error] 21335#0: *27 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:03:02 [notice] 30173#0: signal process started
+2017/12/29 09:03:03 [error] 30177#0: *29 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/_init.lua:138: attempt to index global 'resty' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:03:04 [error] 30177#0: *31 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:03:08 [error] 30177#0: *30 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:03:08 [error] 30177#0: *32 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:06:06 [notice] 32007#0: signal process started
+2017/12/29 09:06:07 [error] 32011#0: *34 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/_init.lua:14: module 'resty.mgo3._init.dbmt' not found:
+	no field package.preload['resty.mgo3._init.dbmt']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file './resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.so'
+	no file './resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:06:07 [error] 32011#0: *36 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:22:32 [notice] 9685#0: signal process started
+2017/12/29 09:22:34 [error] 9689#0: *37 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/_init.lua:14: module 'resty.mgo3._init.dbmt' not found:
+	no field package.preload['resty.mgo3._init.dbmt']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file './resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.so'
+	no file './resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:26:02 [notice] 11970#0: signal process started
+2017/12/29 09:26:56 [notice] 12288#0: signal process started
+2017/12/29 09:27:17 [notice] 12607#0: signal process started
+2017/12/29 09:27:38 [notice] 12923#0: signal process started
+2017/12/29 09:27:54 [notice] 12953#0: signal process started
+2017/12/29 09:28:15 [notice] 13277#0: signal process started
+2017/12/29 09:28:30 [notice] 13599#0: signal process started
+2017/12/29 09:29:25 [notice] 13940#0: signal process started
+2017/12/29 09:29:57 [notice] 14559#0: signal process started
+2017/12/29 09:30:38 [notice] 14882#0: signal process started
+2017/12/29 09:31:06 [notice] 15204#0: signal process started
+2017/12/29 09:31:11 [error] 15208#0: *40 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3/_init.lua:14: module 'resty.mgo3._init.dbmt' not found:
+	no field package.preload['resty.mgo3._init.dbmt']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt/init.lua'
+	no file './resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/dbmt/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lualib/resty/mgo3/_init/dbmt.so'
+	no file './resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init/dbmt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:33:26 [notice] 16542#0: signal process started
+2017/12/29 09:33:56 [notice] 16853#0: signal process started
+2017/12/29 09:34:59 [notice] 17753#0: signal process started
+2017/12/29 09:35:17 [notice] 17788#0: signal process started
+2017/12/29 09:35:28 [notice] 18099#0: signal process started
+2017/12/29 09:36:31 [notice] 18721#0: signal process started
+2017/12/29 09:36:57 [notice] 19052#0: signal process started
+2017/12/29 09:38:15 [notice] 19709#0: signal process started
+2017/12/29 09:38:37 [notice] 20018#0: signal process started
+2017/12/29 09:39:43 [notice] 20676#0: signal process started
+2017/12/29 09:40:28 [notice] 21298#0: signal process started
+2017/12/29 09:40:34 [error] 21302#0: *43 lua entry thread aborted: runtime error: /var/mgo3/t/lualib/resty/mgo3.lua:2: module 'resty.mgo3._init' not found:
+	no field package.preload['resty.mgo3._init']
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init.lua'
+	no file '/var/mgo3/t/lualib/resty/mgo3/_init/init.lua'
+	no file '/var/mgo3/t/lualib/share/lua/5.1/resty/mgo3/_init/init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init.ljbc'
+	no file '/usr/local/lualib/resty/mgo3/_init/init.ljbc'
+	no file '/usr/local/site/lualib/resty/mgo3/_init.lua'
+	no file '/usr/local/site/lualib/resty/mgo3/_init/init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init.lua'
+	no file '/usr/local/lualib/resty/mgo3/_init/init.lua'
+	no file './resty/mgo3/_init.lua'
+	no file '/usr/local/luajit/share/luajit-2.1.0-beta3/resty/mgo3/_init.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init.lua'
+	no file '/usr/local/share/lua/5.1/resty/mgo3/_init/init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init.lua'
+	no file '/usr/local/luajit/share/lua/5.1/resty/mgo3/_init/init.lua'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty/mgo3/_init.so'
+	no file '/usr/local/site/lualib/resty/mgo3/_init.so'
+	no file '/usr/local/lualib/resty/mgo3/_init.so'
+	no file './resty/mgo3/_init.so'
+	no file '/usr/local/lib/lua/5.1/resty/mgo3/_init.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty/mgo3/_init.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/var/mgo3/t/lualib/lib/lua/5.1/resty.so'
+	no file '/usr/local/site/lualib/resty.so'
+	no file '/usr/local/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:40:34 [error] 21302#0: *44 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:40:38 [error] 21302#0: *45 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 09:40:38 [error] 21302#0: *46 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:1: loop or previous error loading module 'resty.mgo3'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/var/mgo3/t/demoContent.lua:1: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 09:41:03 [notice] 21614#0: signal process started
+2017/12/29 10:06:40 [notice] 4854#0: signal process started
+2017/12/29 10:06:41 [error] 4858#0: *51 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:15: attempt to index global 'mgo' (a nil value)
+stack traceback:
+coroutine 0:
+	/var/mgo3/t/demoContent.lua: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:06:41 [error] 4858#0: *52 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:15: attempt to index global 'mgo' (a nil value)
+stack traceback:
+coroutine 0:
+	/var/mgo3/t/demoContent.lua: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:06:56 [notice] 4875#0: signal process started
+2017/12/29 10:07:21 [notice] 5191#0: signal process started
+2017/12/29 10:07:22 [error] 5195#0: *60 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:07:23 [error] 5195#0: *58 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:07:38 [error] 5195#0: *62 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:07:39 [error] 5195#0: *64 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:08:55 [error] 5195#0: *65 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:08:57 [error] 5195#0: *67 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:09:40 [error] 5195#0: *69 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:09:41 [error] 5195#0: *71 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:25: Cannot serialise function: type not supported
+stack traceback:
+coroutine 0:
+	[C]: in function 'encode'
+	/var/mgo3/t/demoContent.lua:25: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:09:49 [notice] 6707#0: signal process started
+2017/12/29 10:10:10 [notice] 7028#0: signal process started
+2017/12/29 10:10:11 [notice] 7048#0: signal process started
+2017/12/29 10:10:12 [notice] 7068#0: signal process started
+2017/12/29 10:10:13 [error] 7071#0: *79 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:26: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/var/mgo3/t/demoContent.lua:26: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET / HTTP/1.1", host: "10.100.157.198:27027"
+2017/12/29 10:10:14 [error] 7071#0: *78 lua entry thread aborted: runtime error: /var/mgo3/t/demoContent.lua:26: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/var/mgo3/t/demoContent.lua:26: in function </var/mgo3/t/demoContent.lua:1>, client: 10.101.20.26, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.100.157.198:27027", referrer: "http://10.100.157.198:27027/"
+2017/12/29 10:10:50 [notice] 7386#0: signal process started
